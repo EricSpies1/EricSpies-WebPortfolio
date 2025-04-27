@@ -1,0 +1,12 @@
+/* assets/css/styles.css */
+
+/* Push page content below the fixed navbar */
+body {
+    padding-top: 70px;
+  }
+  
+  /* Simple footer styling */
+  footer {
+    margin-top: 50px;
+  }
+  
