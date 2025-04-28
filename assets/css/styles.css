@@ -1,8 +1,37 @@
 body {
-    padding-top: 70px;
-  }
-  
-  footer {
-    margin-top: 50px;
-  }
-  
+  padding-top: 70px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+/* assets/css/styles.css */
+
+body {
+  /* path is relative to the CSS file */
+  background-image: url('../img/background.png');
+  background-size: cover;           /* scale to fill */
+  background-position: center;      /* center it */
+  background-repeat: no-repeat;     /* don’t tile */
+  background-attachment: fixed;     /* parallax effect */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;  /* take up remaining space */
+}
+
+/* assets/css/styles.css */
+body {
+  color: red !important;
+}
